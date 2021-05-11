@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(33, 37, 48);
+}
+.card-header{
+    border-radius: 5px !important;
+    border: none;
+    background-color: rgb(51, 62, 97);
+    color: white;
+    box-shadow: 5px 5px 20px rgba(3, 3, 3, 0.1);
+    letter-spacing: 1px;
+}
+.card{
+    width: 45%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 5px 5px 30px rgba(3, 3, 3, 0.4);
+}
+h1{
+    text-align: center;
+}
+label,input::placeholder{
+    font-size: 1.2rem;
+}
+input{
+    box-shadow: none !important;
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+input:focus{
+    box-shadow: 3px 3px 20px 10px rgba(32, 31, 41, 0.05) !important;
+    background-color: rgba(59, 57, 71, 0.01) !important;
+}
+.btn{
+    font-size: 1.2rem;
+    background-color: rgb(51, 62, 97);
+    outline: none !important;
+    border: none !important;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 2px 15px rgba(41, 38, 48, 0.3);
+}
+.btn:hover,.btn:focus{
+    background-color: rgb(44, 53, 82) !important;
+    box-shadow: rgb(219, 15, 15) !important;
+}
+.card-footer{
+    text-align: center;
+    background-color: white !important;
+    border: none !important;
+    padding: 0px !important;
+    font-size: 1.2rem;
+}
+button{
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.skinny{
+    background-color: rgb(97, 140, 141) !important;
+}
+.normal{
+    background-color: rgb(116, 160, 95) !important;
+}
+.fat{
+    background-color: rgb(185, 83, 83) !important;
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .card{
+        width: 90% !important;
+    }
+}
